@@ -1,0 +1,121 @@
+*{margin: 0; padding: 0;}
+body{font: 12px/150% Arial, Helvetica, Sans-Serif; color: #333;}
+a{text-decoration: none; color: #333;}
+ul,li,ol{list-style: none;}
+img { display:inline-block; border: none;}
+em, i, u {font-style: normal;}
+abbr, acronym { border: 0; font-variant: normal; }
+button, input, select, label{vertical-align: middle; list-style-type: none; border: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th { text-align: left; }
+blockquote, q { quotes: none; }
+a:focus, a:hover{text-decoration:none;}
+.evaluation{
+	width:100%;
+    margin: 0 auto;
+    position:relative;
+}
+/* 头部 */
+header{
+	width:100%;
+	height:60px;
+}
+.container .row .logo span{
+	background:url(../img/all_logo01.png)no-repeat 0 0;
+	width:228px;
+	height:38px;
+	margin-top: 23px;
+    float: left;
+}
+.nav{
+	float: left;
+	padding-left:30px;
+	float: left;
+	padding-top:3px;
+}
+.nav li{
+	float: left;
+	width:88px;
+	line-height:55px;
+    text-align:center;
+}
+.nav li a{
+	color:#333;
+}
+.nav  li a:hover{
+	text-decoration:none;
+}
+.nav_search{
+	float: right;
+	width: 135px;
+	height:30px;
+    border-bottom:1px solid #ddd;
+    line-height:30px;
+    padding-left:6px;
+    margin-top:15px;
+    position:relative;
+    margin-right:20px;
+}
+.nav_search .search_place{
+	outline:none;
+	width:100%;
+	padding-right:20px;
+	height:30px;
+	line-height:30px;
+	background: transparent;
+}
+.nav_search .search_icon{
+	position:absolute;
+	right:3px;
+	top:8px;
+	background:url(../img/sousuo.png) no-repeat 0 0;
+	background-size: 15px 15px;
+	width:15px;
+	height:15px;
+}
+
+
+
+
+
+
+
+
+
+option = {
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['金评社']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type : 'category',  
+        splitNumber: 2,  
+        scale: true,  
+        boundaryGap: false,
+        data: ['0时','1时','2时','3时','4时','5时','6时','7时','8时','9时','10时','11时','12时','13时','14时','15时','16时','17时','18时','19时','20时','21时','22时','23时','24时']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name:'金评社',
+            type:'line',
+            stack: '总量',
+            data:[120, 132, 101, 134, 90, 230, 210, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+    ]
+};

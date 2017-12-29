@@ -1,0 +1,233 @@
+.mation{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin-top:50px;
+	border-bottom:#ddd dotted 1px;
+	padding-bottom:5px;
+}
+.mation li{
+	float:left;
+	min-width:80px;
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
+	cursor:pointer;
+}
+.curr{
+	color:#f20;
+}
+
+
+
+.sorting-contain ul{
+	margin-top:25px;
+	overflow:hidden;
+}
+.sorting-contain ul li{
+	overflow:hidden;
+}
+.sorting .sorting-left {
+    width: 65%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+}
+
+.sorting .sorting-right {
+    width: 35%;
+    float: left;
+    height: auto;
+}
+
+.sorting .item {
+    background-color: #fff;
+    width: 99%;
+    height: auto;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.sorting .sorting-img {
+    width: 190px;
+    height: 110px;
+    float: left;
+}
+
+.sorting .sorting-img img {
+    margin: 15px;
+}
+
+.sorting .sorting-body {
+    float: left;
+    margin-left: 10px;
+}
+
+.sorting .sorting-body .sorting-title {
+    height: auto;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.sorting .sorting-body .sorting-title h2 {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.red {
+    color: #f20;
+}
+
+.sorting .sorting-body .sorting-title h2 .p2p {
+    background-color: #3595e0;
+    color: #fff;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sorting .sorting-body .sorting-title h2 .tion {
+    background-color: #f20;
+    color: #fff;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sorting .sorting-body .sorting-title h2 .s1 {
+    border: 1px solid #f20;
+    color: #f20;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sorting .sorting-body .sorting-txt {
+    margin-top: 15px;
+    height: auto;
+    overflow: hidden;
+}
+
+.sorting .sorting-body .sorting-txt li {
+    min-width: 18%;
+    border-right: 1px solid #ddd;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sorting .sorting-body .sorting-txt strong {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    color: #333;
+    position: relative;
+    max-width: 100%;
+}
+
+.sorting .sorting-body .sorting-txt strong .up {
+    background: url(../images/u189.jpg) no-repeat 0 0;
+    background-size: 8px 15px;
+    width: 8px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -12px;
+}
+
+.sorting .sorting-body .sorting-txt .down {
+    background: url(../images/down.jpg) no-repeat 0 0;
+    background-size: 8px 15px;
+    width: 8px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -12px;
+}
+
+.sorting .sorting-body .sorting-txt span {
+    color: #999;
+    font-size: 14px;
+    display: block;
+}
+
+.sorting-contain {
+    width: 100%;
+}
+
+.sorting-contain h2 {
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+
+.sorting-contain .txt{
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.sorting-contain .time{
+	font-size：13px;
+}
+.sorting-contain .contain-second{
+	overflow:hidden;
+}
+
+.sorting-contain .head-img{
+	width:120px;
+	height:112px;
+	float:left;
+}
+.sorting-contain .head-img img{
+    width:100%;
+    height:100%;
+} 
+.sorting-contain .head-text{
+	float:left;
+	width:89%;
+	margin-left:5px;
+}
+
+/* 3 */
+.sorting-contain .head-logo{
+	float:left;
+	width:37px;
+	height:42px;
+}
+.sorting-contain .head-logo img{
+	width:100%;
+	height:100%;
+}
+.sorting-contain .head-mgxt{
+	float:left;
+	width:95%;
+}
+.sorting-contain .head-mgxt .head-img{
+	width:70px;
+	height:70px;
+	float:left;
+}
+.sorting-contain .head-mgxt .head-text{
+	width:93%;
+}
+.sorting-contain .head-mgxt .head-time{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+}
+.sorting-contain .head-mgxt .head-time .time{
+   margin-left: 25px;
+}

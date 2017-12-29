@@ -1,0 +1,289 @@
+.container{}
+.searchMode{
+	height:60px;
+	border-bottom:1px solid #ddd;
+	float:none;
+	width:100%;
+	margin-top:50px;
+}
+
+.searchMode .searchbox{
+	overflow:hidden;
+	float:left;
+}
+.searchMode .sleft{
+	position:relative;
+	float:left;
+	width:365px;
+	height:45px;
+	line-height:45px;
+	border:#dcdcdc solid 1px;
+	border-radius:2px;
+	zoom:1;
+}
+.searchMode .slae_sbt{
+	padding: 0 30px 0 5px;
+	width:365px;
+	height:43px;
+	line-height:30px;
+	border:0;
+	color:#b0b0b0;
+	font-size:14px;
+	vertical-align:middle;
+}
+.searchMode .sright{
+	float:left;
+	width:75px;
+	background-color:#2f8bcd;
+	height:100%;
+	line-height:38px;
+	text-align:center;
+	font-size:18px;
+}
+.searchMode .sright a{
+	color:#fff;
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:45px;
+	font-size:16px;
+	text-decoration: none;
+}
+.searchMode .letter{
+	float:left;
+	margin:4px 15px 0 10px;
+	line-height:35px;
+}
+.searchMode .letter a{
+	display:inline-block;
+	margin-left: 2px;
+	padding:0 10px;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+	background-color:#f6f6f6;
+	border:#ddd solid 1px;
+	color:#333;
+}
+.searchMode .letter a:hover{
+	background-color:#2f8bcd;
+	color:#fff;
+}
+// 条件
+//筛选条件
+.searchFilter{
+	margin: -1px 0 20px;
+}
+.searchFilter .choose{
+	overflow:hidden;
+}
+.searchFilter .filter{
+	position:relative;
+	overflow:hidden;
+}
+.searchFilter li{
+	padding:8px 0 4px 0;
+	border-bottom:#ddd dotted 1px;
+	font-size:14px;
+	color:#555;
+	line-height:25px;
+	overflow:hidden;
+}
+.searchFilter .filter-name{
+	min-width:50px;
+	float:left;
+	text-align:right;
+}
+.searchFilter .filter-pad{
+	position:relative;
+	padding-left:60px;
+}
+.searchFilter li a.on, .searchFilter .letter a:hover{
+	background-color:#318bcb;
+	border-color:#318bcb;
+	color:#fff;
+	text-decoration:none;
+}
+.searchFilter li a{
+	margin:0 20px 5px 0;
+	padding:0 6px;
+	display:inline-block;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+	border-radius:2px;
+	color:#333;
+}
+.searchFilter li a:hover{
+	color:#318bcb;
+	text-decoration:none;
+}
+.searchFilter li a:hover .pitch{
+	background-position: 0 -431px;
+}
+.searchFilter li .pitch{
+	display:inline-block;
+	margin-right:7px;
+	vertical-align:middle;
+	width:12px;
+	height:12px;
+	background: url(../img/sprits.png) no-repeat 0 -417px;
+}
+
+
+.searchFilter .openmore{
+	margin-top:-1px;
+	border-top: 1px solid #ccc;
+	text-align:center;
+}
+.searchFilter .openmore .open{
+	padding:0 30px;
+	display:inline-block;
+	height:27px;
+	line-height:27px;
+	background-color:#eee;
+	border:#eaeaea solid 1px;
+	border-bottom-color: #ccc;
+	border-top:0;
+	color:#333;
+	text-align:center;
+	border-radius:2px;
+	cursor:pointer;
+}
+.searchFilter .openmore .open .arrow{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	background:url(../img/sprits.png) no-repeat 1px -385px;
+}
+
+/* 按条件排序 */
+.selected select{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	border:#ddd solid 1px;
+}
+.sorting{
+	background-color:#f1f1f1;
+	height:auto;
+	overflow:hidden;
+	margin-top:10px;
+}
+.sorting .item{
+	background-color:#fff;
+	width:99%;
+	height:auto;
+	overflow:hidden;
+	margin:10px auto;
+}
+.sorting .sorting-img{
+	width:190px;
+	height:110px;
+	float:left;
+}
+.sorting .sorting-img img{
+	margin:15px;
+}
+.sorting .sorting-body{
+	float:left;
+	margin-left:10px;
+}
+.sorting .sorting-body .sorting-title{
+	height:auto;
+	line-height:30px;
+	overflow:hidden;
+}
+.sorting .sorting-body .sorting-title h2{
+	font-size:18px;
+	line-height:30px;
+	padding-top: 10px;
+	letter-spacing:1px;
+}
+.sorting .sorting-body .sorting-title h2 .p2p{
+	background-color:#3595e0;
+	color:#fff;
+	padding:3px;
+	margin-left:3px;
+	font-size:12px;
+	border-radius:3px;
+}
+.sorting .sorting-body .sorting-title h2 .tion{
+	background-color:#f20;
+	color:#fff;
+	padding:3px;
+	margin-left:3px;
+	font-size:12px;
+	border-radius:3px;
+}
+.sorting .sorting-body .sorting-title h2 .s1{
+	border:1px solid #f20;
+	color:#f20;
+	padding:3px;
+	margin-left:3px;
+	font-size:12px;
+	border-radius:3px;
+}
+
+.sorting .sorting-body .sorting-txt{
+	margin-top:15px;
+	height:auto;
+	overflow:hidden;
+}
+.sorting .sorting-body .sorting-txt li{
+	min-width:18%;
+	border-right:1px solid #ddd;
+	float:left;
+	padding-right: 10px;
+	padding-left:10px;
+}
+.sorting .sorting-body .sorting-txt strong{
+   font-size:16px;
+   height:30px;
+   line-height:30px;
+   display:inline-block;
+   color:#333;
+   position:relative;
+   max-width:100%;
+}
+.sorting .sorting-body .sorting-txt strong .up{
+	background: url(../images/u189.jpg) no-repeat 0 0;
+	background-size:8px 15px;
+	width:8px;
+	height:15px;
+	display:block;
+	position:absolute;
+	top:6px;
+	right:-12px;
+}
+.sorting .sorting-body .sorting-txt .down{
+	background: url(../images/down.jpg) no-repeat 0 0;
+	background-size:8px 15px;
+	width:8px;
+	height:15px;
+	display:block;
+	position:absolute;
+	top:6px;
+	right:-12px;
+}
+.sorting .sorting-body .sorting-txt span{
+	color:#999;
+	font-size:14px;
+	display:block;
+}
+
+.page{
+	text-align:center;
+}
+.page .pagination a{
+	margin-left:10px;
+}
+
+
+
+
+
+
+
+

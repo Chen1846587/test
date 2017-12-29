@@ -1,0 +1,90 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background: url('../images/u0.jpg');
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/u0.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/u0.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.lg{
+	width:100%;
+	text-align:center;
+	margin-top:10%;
+}
+.lg .lg-img{
+	background:url(../img/u2.png) no-repeat 0 0;
+	background-size:52px 56px;
+	width:52px;
+	height:56px;
+	display:block;
+	margin:0 auto;
+}
+.lg .lg-title{
+	display:inline-block;
+	color:#fff;
+}
+.lg h2{
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+.lg span{
+	font-size:13px;
+	letter-spacing:1px;
+}
+.main{
+	margin-top: 25px;
+	text-align:center;
+}
+.main .main-input{
+	border:1px solid #fff;
+	width:370px;
+	margin: 0 auto;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+.main .main-input label{
+	color:#fff;
+	margin-top:5px;
+	width:100%;
+}
+.main .main-input input{
+	background-color:transparent;
+	border:1px solid #fff;
+	width:80%;
+	padding-left: 5px;
+	font-weight:normal;
+	height:35px;
+	line-height:35px;
+}
+.main .main-input .pass{
+	margin-top:20px;
+}
+.submit {
+	border:1px solid #fff;
+	width:370px;
+	margin:40px auto;
+	border-radius:5px;
+}
+.submit input{
+	width:100%;
+	background-color:transparent;
+	outline:none;
+	border:none;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+
+}
+
+
+
+
+
+
